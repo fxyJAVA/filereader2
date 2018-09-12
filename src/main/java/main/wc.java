@@ -82,7 +82,7 @@ public class wc {
         jButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JFileChooser chooser = new JFileChooser("请选择文件");
+                JFileChooser chooser = new JFileChooser("C:\\Users\\hp\\Desktop");
                 chooser.setMultiSelectionEnabled(true);
 
                 int returnVal;
